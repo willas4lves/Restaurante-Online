@@ -1,0 +1,90 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+        color: #333;
+        background-color: #141414;
+    }
+
+    header{
+        width: 100%;
+        background-color: #1c1b20;
+        
+        padding: 10px 32px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #menu{
+        color: #bebebe;
+    }
+
+    #sobre-nos{
+        color: #bebebe;
+    }
+
+    #peca-online{
+        color: #bebebe;
+    }
+
+    .formulario{
+        color: #333;
+    }
+
+    nav,
+    section,
+    footer {
+        padding: 20px;
+        text-align: center;
+    }
+    .logo {
+        width: 50px;
+    }
+
+    
+
+    nav a,p {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #bebebe;
+        font-weight: bold;
+    }
+
+    img {
+        max-width: 180px;
+        width: 50%;
+        height: min-content;
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: left;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0 , 0 , 0.1);
+    }
+
+    label,
+    input,
+    select,
+    textarea {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        width: auto;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }

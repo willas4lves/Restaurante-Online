@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Sabor Brasileiro - Peça Online</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>
+            <img class="logo" src="./img/sabor brasileiro logo.png" alt="logo">
+        </h1>
+        <p><strong>Restaurante Sabor Brasileiro</strong></p>
+        <nav class="navbar-items">
+        <a href="#menu"><strong>Menu</strong></a>
+        <a href="#sobre-nos">Sobre Nós</a>
+        <a href="#peca-online">Peça Online</a>
+    </nav>
+
+
+    </header>
+
+    
+
+    <section id="imagem-destacada">
+        <img src="./img/comida brasileira.png" alt="Restaurante Sabor Brasileiro">
+    </section>
+
+    <section id="sobre-nos">
+        <h2>Sobre Nós</h2>
+        <p>O Restaurante Sabor Brasileiro oferece uma experiência gastronômica única, com pratos que celebram a
+            culinária tradicional brasileira. Visite-nos ou peça online!</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>Nossa especialidade inclui Feijoada, Moqueca, Pão de Queijo, e muito mais.</p>
+    </section>
+
+    <section id="peca-online">
+        <h2>Peça Online</h2>
+        <p>Escolha seus pratos favoritos e faça seu pedido online agora mesmo!</p>
+        <form class="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco">
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone">
+
+            <label for="pratos">Seleção de Pratos:</label>
+            <select id="pratos" name="pratos">
+                <option value="feijoada">Feijoada</option>
+                <option value="moqueca">Moqueca</option>
+                <option value="pao_de_queijo">Pão de Queijo</option>
+            </select>
+
+            <label for="pagamento">Método de Pagamento:</label>
+            <input type="radio" id="cartao" name="pagamento" value="cartao">
+            <label for="cartao">Cartão de Crédito</label>
+            <input type="radio" id="dinheiro" name="pagamento" value="dinheiro">
+            <label for="dinheiro">Dinheiro</label>
+
+            <label for="instrucoes">Instruções Especiais:</label>
+            <textarea id="instrucoes" name="instrucoes"></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Restaurante Sabor Brasileiro</p>
+    </footer>
+
+</body>
+
+</html>
