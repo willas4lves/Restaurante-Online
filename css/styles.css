@@ -6,7 +6,12 @@
     body {
         font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
         color: #333;
-        background-color: #141414;
+        background-image: url("../img/fundo.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        
     }
 
     header{
@@ -21,28 +26,60 @@
     }
     #menu{
         color: #bebebe;
+        padding: 20px;
+        margin: 20px;
+        background-image: url("../img/bannerdo\ restaurante.jpg");
+        border-radius: 10px;
+    }
+
+    .menu-estilo{
+        
     }
 
     #sobre-nos{
         color: #bebebe;
+        padding: 20px;
+        margin: 20px;
+        background-image: url("../img/a91b910a4e2ee8e5a1537b42c69698d1.png");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        border-radius: 10px;
     }
 
     #peca-online{
-        color: #bebebe;
+        color: #b3b3b3;
+        padding: 20px;
+        margin: 20px;
+        background-image: url("../img/interior.png");
+        border-radius: 10px;
+    }
+
+    .peca-estilo{
+        color: whitesmoke;
+        font-family: none;
     }
 
     .formulario{
         color: #333;
+        
+    }
+
+    footer{
+        padding: 20px;
+        text-align: center;
+        background-color: #1c1b20;
+
     }
 
     nav,
-    section,
-    footer {
+    section{
         padding: 20px;
         text-align: center;
     }
     .logo {
-        width: 50px;
+        width: 190px;
     }
 
     
@@ -55,9 +92,9 @@
     }
 
     img {
-        max-width: 180px;
-        width: 50%;
-        height: min-content;
+        max-width: 150px;
+        width: 40%;
+        height: auto;
     }
 
     form {
